@@ -51,8 +51,7 @@ public class Main {
 	}
 
 	private static void inroleazaStudenti() {
-		for (Student s : gr123.Studenti)
-			s.status = true;
+		gr123.Studenti.stream().map(x -> {x.status=true; return x;}).collect(Collectors.toList());
 		System.out.println("Studentii au fost inrolati!");
 	}
 	
