@@ -38,6 +38,7 @@ public class Main {
 		System.out.println("=====================================================================================================");
 		System.out.println("CNP" + "\t\t" + "DATA_NASTERII" + "\t\t\t" + "ADRESA" + "\t\t\t" + "NUME_PRENUME" + '\t' + "AN" + '\t' + "STATUS");
 		System.out.println("=====================================================================================================");
+		System.out.println("=");
 		for (Student s : gr123.Studenti) {
 			System.out.println(s.CNP + '\t' + s.DataNasterii.toString() + '\t' + s.Adresa + '\t' + s.NumePrenume + '\t' + s.AnStudiu + '\t' + s.status);
 			System.out.println("------------------------------------------------------------------------------------------------------");
