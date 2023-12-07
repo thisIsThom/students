@@ -33,7 +33,7 @@ public class Main {
 		gr123.Studenti.add(new Student("123456780", new Date(), "Str.Victoriei, nr.1", "Vasile Ion", 1, false, 123));
 
 	}
-	
+	//afiseaza studenti!
 	private static void afiseazaStudenti() {
 		System.out.println("=====================================================================================================");
 		System.out.println("CNP" + "\t\t" + "DATA_NASTERII" + "\t\t\t" + "ADRESA" + "\t\t\t" + "NUME_PRENUME" + '\t' + "AN" + '\t' + "STATUS");
